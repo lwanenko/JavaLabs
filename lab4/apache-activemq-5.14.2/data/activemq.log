@@ -1,0 +1,23 @@
+2016-12-28 11:05:50,365 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6015b177: startup date [Wed Dec 28 11:05:50 EET 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2016-12-28 11:05:52,534 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\iwane\Desktop\apache-activemq-5.14.2\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-28 11:05:54,159 | INFO  | PListStore:[C:\Users\iwane\Desktop\apache-activemq-5.14.2\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2016-12-28 11:05:54,331 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:DESKTOP-C0IHR8C-61563-1482915954181-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-28 11:05:54,377 | INFO  | Listening for connections at: tcp://DESKTOP-C0IHR8C:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-28 11:05:54,379 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-28 11:05:54,387 | INFO  | Listening for connections at: amqp://DESKTOP-C0IHR8C:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-28 11:05:54,393 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-28 11:05:54,406 | INFO  | Listening for connections at: stomp://DESKTOP-C0IHR8C:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-28 11:05:54,409 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-28 11:05:54,417 | INFO  | Listening for connections at: mqtt://DESKTOP-C0IHR8C:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-28 11:05:54,421 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-28 11:05:54,687 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3997ca0d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2016-12-28 11:05:54,998 | INFO  | Listening for connections at ws://DESKTOP-C0IHR8C:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2016-12-28 11:05:55,000 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-28 11:05:55,002 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:DESKTOP-C0IHR8C-61563-1482915954181-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-28 11:05:55,004 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-28 11:05:56,386 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | WrapperSimpleAppMain
+2016-12-28 11:05:56,689 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2016-12-28 11:05:56,689 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2016-12-28 11:05:56,801 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2016-12-28 11:05:57,481 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | WrapperSimpleAppMain
+2016-12-28 11:05:57,717 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | WrapperSimpleAppMain
